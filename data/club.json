@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "AC Milan",
+    "shortName": "Milan",
+    "founded": 1899,
+    "stadium": "San Siro (Giuseppe Meazza)",
+    "capacity": 75723,
+    "country": "Italy",
+    "city": "Milan",
+    "manager": "Paulo Fonseca",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/d/d0/AC_Milan_logo.svg",
+    "colors": {
+      "primary": "#ff0000",
+      "secondary": "#000000"
+    },
+    "description": "AC Milan adalah salah satu klub sepak bola paling sukses di dunia, berbasis di Milan, Italia. Didirikan pada tahun 1899, klub ini dikenal dengan warna merah dan hitamnya serta sejarah gemilang di Serie A dan kompetisi Eropa.",
+    "achievements": {
+      "serieA_titles": 19,
+      "championsLeague_titles": 7,
+      "coppaItalia_titles": 5,
+      "supercoppaItalia_titles": 7
+    }
+  }
+]
