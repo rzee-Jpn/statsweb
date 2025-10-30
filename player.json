@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Rafael Leão",
+    "club": "AC Milan",
+    "position": "Winger Kiri",
+    "age": 25,
+    "nationality": "Portugal",
+    "goals": 12,
+    "assists": 9,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Rafael_Leao_2023.jpg",
+    "description": "Rafael Leão adalah pemain kunci AC Milan di lini serang. Dengan kecepatan dan kemampuan dribbling tinggi, ia sering menjadi pembeda dalam pertandingan besar. Leão juga berperan penting membawa Milan juara Serie A 2021–22."
+  },
+  {
+    "id": 2,
+    "name": "Olivier Giroud",
+    "club": "AC Milan",
+    "position": "Penyerang Tengah",
+    "age": 38,
+    "nationality": "Prancis",
+    "goals": 14,
+    "assists": 5,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/3/35/Olivier_Giroud_2022.jpg",
+    "description": "Giroud adalah striker veteran dengan insting gol tajam. Meski usia tak muda, ia tetap konsisten mencetak gol penting bagi AC Milan di kompetisi domestik dan Eropa."
+  },
+  {
+    "id": 3,
+    "name": "Theo Hernández",
+    "club": "AC Milan",
+    "position": "Bek Kiri",
+    "age": 28,
+    "nationality": "Prancis",
+    "goals": 6,
+    "assists": 8,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/6/67/Theo_Hernandez_2022.jpg",
+    "description": "Theo Hernández dikenal dengan kecepatan dan kemampuan menyerang dari sisi kiri. Ia sering melakukan overlap dan memberikan kontribusi besar dalam serangan AC Milan."
+  },
+  {
+    "id": 4,
+    "name": "Mike Maignan",
+    "club": "AC Milan",
+    "position": "Kiper",
+    "age": 30,
+    "nationality": "Prancis",
+    "goals": 0,
+    "assists": 1,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/5/58/Mike_Maignan_2022.jpg",
+    "description": "Mike Maignan merupakan penjaga gawang utama AC Milan dan tim nasional Prancis. Refleks cepat dan kemampuan distribusinya membuatnya salah satu kiper terbaik Serie A."
+  },
+  {
+    "id": 5,
+    "name": "Fikayo Tomori",
+    "club": "AC Milan",
+    "position": "Bek Tengah",
+    "age": 27,
+    "nationality": "Inggris",
+    "goals": 2,
+    "assists": 0,
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Fikayo_Tomori_2022.jpg",
+    "description": "Tomori adalah bek tangguh yang cepat dan agresif dalam duel satu lawan satu. Dia menjadi pilar penting dalam pertahanan Milan sejak bergabung dari Chelsea."
+  }
+]
