@@ -1,0 +1,27 @@
+{
+  "league": "Serie A",
+  "season": "2025/26",
+  "updated_at": "2025-10-31",
+  "clubs": [
+    { "id": "atalanta", "name": "Atalanta", "url": "https://www.transfermarkt.com/atalanta-bc/startseite/verein/800" },
+    { "id": "bologna", "name": "Bologna", "url": "https://www.transfermarkt.com/bologna-fc-1909/startseite/verein/1025" },
+    { "id": "cagliari", "name": "Cagliari", "url": "https://www.transfermarkt.com/cagliari-calcio/startseite/verein/1390" },
+    { "id": "como", "name": "Como 1907", "url": "https://www.transfermarkt.com/como-1907/startseite/verein/10039" },
+    { "id": "cremonese", "name": "Cremonese", "url": "https://www.transfermarkt.com/us-cremonese/startseite/verein/1221" },
+    { "id": "empoli", "name": "Empoli", "url": "https://www.transfermarkt.com/empoli-fc/startseite/verein/749" },
+    { "id": "fiorentina", "name": "Fiorentina", "url": "https://www.transfermarkt.com/acf-fiorentina/startseite/verein/430" },
+    { "id": "genoa", "name": "Genoa", "url": "https://www.transfermarkt.com/genoa-cfc/startseite/verein/252" },
+    { "id": "hellas_verona", "name": "Hellas Verona", "url": "https://www.transfermarkt.com/hellas-verona/startseite/verein/276" },
+    { "id": "inter_milan", "name": "Inter Milan", "url": "https://www.transfermarkt.com/inter-mailand/startseite/verein/46" },
+    { "id": "juventus", "name": "Juventus", "url": "https://www.transfermarkt.com/juventus-fc/startseite/verein/506" },
+    { "id": "lazio", "name": "Lazio", "url": "https://www.transfermarkt.com/ss-lazio/startseite/verein/398" },
+    { "id": "lecce", "name": "Lecce", "url": "https://www.transfermarkt.com/us-lecce/startseite/verein/6706" },
+    { "id": "ac_milan", "name": "AC Milan", "url": "https://www.transfermarkt.com/ac-mailand/startseite/verein/5" },
+    { "id": "monza", "name": "Monza", "url": "https://www.transfermarkt.com/ac-monza/startseite/verein/2919" },
+    { "id": "napoli", "name": "Napoli", "url": "https://www.transfermarkt.com/ssc-neapel/startseite/verein/6195" },
+    { "id": "parma", "name": "Parma", "url": "https://www.transfermarkt.com/parma-calcio-1913/startseite/verein/130" },
+    { "id": "roma", "name": "AS Roma", "url": "https://www.transfermarkt.com/as-rom/startseite/verein/12" },
+    { "id": "torino", "name": "Torino", "url": "https://www.transfermarkt.com/fc-turin/startseite/verein/416" },
+    { "id": "udinese", "name": "Udinese", "url": "https://www.transfermarkt.com/udinese-calcio/startseite/verein/410" }
+  ]
+}
