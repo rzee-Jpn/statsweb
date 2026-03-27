@@ -1,35 +1,47 @@
-name: Scrape Wilbay Links
+name: Multi Source Scraper
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # jalan tiap 6 jam
-  workflow_dispatch:       # bisa run manual
+    - cron: "0 */6 * * *"   # jalan tiap 6 jam
+  workflow_dispatch:        # bisa dijalankan manual
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Ambil repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
+      # 3. Install dependency
       - name: Install dependencies
         run: |
-          pip install snscrape
+          pip install --upgrade pip
+          pip install git+https://github.com/JustAnotherArchivist/snscrape.git
+          pip install requests
 
+      # 4. Debug struktur file (optional tapi penting)
+      - name: Debug files
+        run: ls -R
+
+      # 5. Jalankan scraper
       - name: Run scraper
         run: |
           python scraper/wilbay.py
 
-      - name: Commit hasil
+      # 6. Commit hasil
+      - name: Commit result
         run: |
-          git config --global user.name "bot"
+          git config --global user.name "scraper-bot"
           git config --global user.email "bot@github.com"
+
           git add wilbay_links.txt
           git commit -m "update links" || echo "no changes"
           git push
