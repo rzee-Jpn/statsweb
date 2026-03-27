@@ -1,0 +1,35 @@
+name: Scrape Wilbay Links
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # jalan tiap 6 jam
+  workflow_dispatch:       # bisa run manual
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install snscrape
+
+      - name: Run scraper
+        run: |
+          python scraper/wilbay.py
+
+      - name: Commit hasil
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
+          git add wilbay_links.txt
+          git commit -m "update links" || echo "no changes"
+          git push
