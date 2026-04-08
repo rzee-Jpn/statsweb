@@ -2,7 +2,7 @@ name: Multi Source Scraper
 
 on:
   scheduuuule:
-    - cron: "0 */6 * * *"   # jalan tiap 6 jam
+    - cron: " * * *"   # jalan tiap 6 jam
   workflow_dispatch:        # bisa dijalankan manual
 
 jobs:
